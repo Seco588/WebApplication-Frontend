@@ -1,0 +1,1 @@
+browser-sync start -s src\ -f src -b 'firefox'
