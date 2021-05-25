@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrati</title>
     <link rel="stylesheet" href="style.css">
+    <title>Projectwork App</title>
 </head>
 <body>
-    <h1>Registrati</h1>
-    <form action="#" method="POST">
-        <input type="text" name="firstName" id="firstName" placeholder="nome" required>
-        <input type="text" name="lastName" id="lastName" placeholder="cognome" required>
-        <input type="date" name="birthDate" id="birthDate" placeholder="data di nascita" required>
-        <input type="text" name="usr" id="usr" placeholder="username" required>
-        <input type="text" name="pwd" id="pwd" placeholder="password" required>
-        <input type="submit" value="Salva" >
-    </form>
+    <main>
+        <header>
+            <p>Projectwork</p>
+        </header>
+        <nav >
+            <pw-menu ></pw-menu>
+        </nav>
+        <section class="view">
+            <h1>Registrati</h1>
+            <form action="#" method="POST">
+                <input type="text" name="firstName" id="firstName" placeholder="nome" required>
+                <input type="text" name="lastName" id="lastName" placeholder="cognome" required>
+                <input type="date" name="birthDate" id="birthDate" placeholder="data di nascita" required>
+                <input type="text" name="usr" id="usr" placeholder="username" required>
+                <input type="text" name="pwd" id="pwd" placeholder="password" required>
+                <input type="submit" value="Salva" >
+            </form>
+        </section>
+        <footer>
+            <p>powered by TSS 2020</p>
+        </footer>
+    </main>
     <script src="registration.js" type="module"></script>
 </body>
 </html>

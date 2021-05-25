@@ -1,3 +1,4 @@
 import {isTokenValid} from "./jwt.js";
+import Menu from './Menu.js';
 
-window.location.href = isTokenValid() ? "posts.html" : "login.html";
+    
